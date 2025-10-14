@@ -1,0 +1,27 @@
+/* Medium Screen Styles (Tablet) */
+@media only screen and (min-width: 35rem) {
+  
+  header img {
+    width: 30px;
+    height: auto;
+  }
+  
+  #navWrapper {
+    padding: 0.3rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+    li a {
+      border: none;
+      
+      &:hover {
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-underline-offset: 3px;
+      }
+    }
+  }
+}

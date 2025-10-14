@@ -1,0 +1,21 @@
+/* Large Screen Styles (Desktop) */
+@media only screen and (min-width: 60rem) {
+  
+  header, nav, main {
+    max-width: 60rem;
+    margin: auto;
+  }
+  
+  header img {
+    width: 40px;
+    height: auto;
+  }
+  
+  nav ul {
+    justify-content: flex-end;
+    
+    li a {
+      padding: 0.4rem 1rem;
+    }
+  }
+}
